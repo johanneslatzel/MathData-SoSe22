@@ -1,0 +1,11 @@
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+MLDatasets = "eb30cadb-4394-5ae3-aed4-317e484a6458"
+MosaicViews = "e94cdb99-869f-56ef-bcf0-1ae2bcbe0389"
+ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
+cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"

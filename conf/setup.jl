@@ -80,6 +80,20 @@ Pkg.add(PackageSpec(name="TSne", version="1.3.0")) # https://github.com/lejon/TS
 Pkg.add(PackageSpec(name="StatsBase", version="0.34.4")) # https://github.com/JuliaStats/StatsBase.jl
 Pkg.add(PackageSpec(name="PlotlyJS", version="0.18.5")) # https://github.com/JuliaPlots/PlotlyJS.jl
 
+# 08-convolutions
+Pkg.activate(joinpath(confPath, "08-convolutions"))
+Pkg.add(PackageSpec(name="Images", version="0.26.2")) # https://github.com/JuliaImages/Images.jl
+Pkg.add(PackageSpec(name="ImageView", version="0.12.6")) # https://github.com/JuliaImages/ImageView.jl
+Pkg.add(PackageSpec(name="DSP", version="0.8.3")) # https://github.com/JuliaDSP/DSP.jl
+
+# 09-cnn
+Pkg.activate(joinpath(confPath, "09-cnn"))
+Pkg.add(PackageSpec(name="MLDatasets", version="0.7.18")) # https://github.com/JuliaML/MLDatasets.jl
+Pkg.add(PackageSpec(name="Flux", version="0.16.3")) # https://github.com/FluxML/Flux.jl
+Pkg.add(PackageSpec(name="Images", version="0.26.2")) # https://github.com/JuliaImages/Images.jl
+Pkg.add(PackageSpec(name="JLD2", version="0.5.12")) # https://github.com/JuliaIO/JLD2.jl
+
+
 # 01_Ex4b
 Pkg.activate(joinpath(confPath, "01_Ex4b"))
 Pkg.add(PackageSpec(name="LinearAlgebra", version="1.12.0")) # https://github.com/JuliaLang/LinearAlgebra.jl
